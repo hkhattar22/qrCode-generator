@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    height: 100vh;
+
+}
+
+.top{
+    background-color: green;
+    height: 35px;
+    position:static;
+    text-align: center;
+    font-size: 25px;
+    font-family:cursive;
+    color: white;
+}
+
+.form{
+    /* background-color: rgb(116, 189, 116); */
+    height:50px;
+    width:fit-content;
+    margin: 0 auto;
+    position:relative;
+    text-align: center;
+    text-justify: center;
+    top: 100px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: rgb(116, 189, 116);
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    position:relative;
+    top: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
